@@ -70,10 +70,6 @@ btnSalvar.onclick = e => {
     itens[id].veiculo = sVeiculo.value
     itens[id].placa = sPlaca.value
     itens[id].servico = sServico.value
-    itens[id].valor = sValor.value
-    itens[id].dataini = sDataini.value
-    itens[id].datafim = sDatafim.value
-    itens[id].funcionario = sFuncionario.value
   } else {
     itens.push({'veiculo': sVeiculo.value, 'placa': sPlaca.value, 'servico': sServico.value})
   }
